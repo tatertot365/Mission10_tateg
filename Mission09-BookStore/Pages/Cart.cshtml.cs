@@ -11,6 +11,8 @@ namespace Mission09_BookStore.Pages
 {
 	public class CartModel : PageModel
     {
+
+        // This si the code for the Cart page that allows you to manage the returnURL and adding items to the basket
         private BookstoreBooksRepository repo { get; set; }
         public CartModel (BookstoreBooksRepository temp)
         {

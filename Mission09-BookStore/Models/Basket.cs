@@ -6,6 +6,8 @@ namespace Mission09_BookStore.Models
 {
 	public class Basket
 	{
+
+		// this is the basket class that shows basket line items as well
 		public List<BasketLineItem> Items { get; set; } = new List<BasketLineItem>();
 
 		public void AddItem(Books b, int qty)

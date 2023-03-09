@@ -31,6 +31,7 @@ namespace Mission09_BookStore.Controllers
         {
             int pageSize = 10;
 
+            // Updated model to account for category values to be able to sort books by category
             var x = new BooksViewModel
             {
                 Books = repo.Books

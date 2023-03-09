@@ -60,6 +60,7 @@ namespace Mission09_BookStore
 
             app.UseEndpoints(endpoints =>
             {
+                // These are all of the endpoints and routes that control where the user navigates on the website
                 endpoints.MapControllerRoute(
                     name: "categorypage",
                     pattern: "{category}/Page{pageNum}",
@@ -77,7 +78,6 @@ namespace Mission09_BookStore
                     pattern: "{category}",
                     defaults: new {Controller = "Home", action = "Index", pageNum = 1}
                     );
-
 
                 endpoints.MapControllerRoute(
                     name: "default",

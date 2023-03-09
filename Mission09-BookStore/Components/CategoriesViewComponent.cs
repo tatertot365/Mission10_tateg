@@ -7,6 +7,7 @@ namespace Mission09_BookStore.Components
 {
 	public class CategoriesViewComponent : ViewComponent
 	{
+		// this class gets all the book categories which are then outputted to the index page
 		private BookstoreBooksRepository repo { get; set; }
 
 		public CategoriesViewComponent (BookstoreBooksRepository temp)
